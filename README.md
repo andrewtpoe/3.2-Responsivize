@@ -9,10 +9,14 @@
 * A comment on your original Issue with a link to your PR
 
 ### Requirements
-Using the files provided, design the website to be structurally similar to this
+Design the website to be structurally similar to this
+
 ![](./images/blog--halved.png)
+
 and when the browser width reaches `600px`, make it restructure itself to this
+
 ![](./images/blog--full.png)
+
 (Create responsive website designed styled similar to 'http://blog.squarespace.com/blog/squarespace-x-bandsintown')
 Specific Requirements:
 * the `header` section must have a full-width & full-height background image (at any resolution)
