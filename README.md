@@ -17,7 +17,8 @@ and when the browser width reaches `600px`, make it restructure itself to this
 
 ![](./images/blog--full.png)
 
-(Create responsive website designed styled similar to 'http://blog.squarespace.com/blog/squarespace-x-bandsintown')
+The original site can be found here: http://blog.squarespace.com/blog/squarespace-x-bandsintown
+
 Specific Requirements:
 * the `header` section must have a full-width & full-height background image (at any resolution)
 * the line across the upper area on the halved image's left side must be the same offset as it is on the right side
