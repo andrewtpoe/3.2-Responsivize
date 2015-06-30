@@ -1,4 +1,4 @@
-### Eggs & Bacon
+### Bacon & Eggs
 
 ### Deliverables
 * [An issue in the class repo](https://github.com/tiy-chs-ruby/assignments-june-2015) titled `3.2 - Responsivize -- YOUR NAME` with checkboxes as below under _Requirements_.
