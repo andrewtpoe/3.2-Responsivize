@@ -1,6 +1,7 @@
-* {
+html {
   box-sizing: border-box;
 }
+*,
 *:before,
 *:after {
   box-sizing: inherit;
@@ -25,6 +26,7 @@ body {
   background-position: center center;
   background-size: cover;
   color: #FFF;
+  text-shadow: 0 -1px 0 #000;
 }
 .post__headerLogo {
   font-size: 30px;
@@ -64,6 +66,7 @@ body {
 .post__header > h1 {
   margin: 50px;
   font-size: 50px;
+  line-height: 
 }
 .post__header > p {
   margin: 50px;
@@ -84,10 +87,12 @@ body {
   text-align: right;
 }
 .post__content > img {
-  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   /*height: auto;*/
 }
-@media (max-width: 600px) {
+@media all and (max-width: 950px) {
   .post__header, .post__contentWrapper {
     width: auto;
     position: relative;
