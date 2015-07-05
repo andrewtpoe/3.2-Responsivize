@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+html,
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 27px;
+}
+body {
+  margin: 0;
+}
+.post {
+}
+.post__header {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  background-image: url('../images/Bacon-Eggs.jpg');
+  background-position: center center;
+  background-size: cover;
+  color: #FFF;
+}
+.post__headerLogo {
+  font-size: 30px;
+  margin: 30px 25px 0px 50px;
+  display: inline-block;
+}
+.post__headerButton {
+  display: inline-block;
+  margin: 25px 50px 25px 0px;
+  float: right;
+  border: 2px solid #fff;
+  background: none;
+  font-size: 25px;
+  color: inherit;
+}
+.post__headerNav {
+  display: inline-block;
+  list-style: none;
+  margin: 50px;
+  padding: 0;
+}
+.post__headerNav > li {
+  display: inline-block;
+}
+.post__headerNav > li > a {
+  color: inherit;
+  text-decoration: none;
+}
+.post__headerNav > li > a:hover {
+  color: #d4d4d4;
+}
+.post__headerNavBar {
+  border: 1px solid #fff;
+  height: 0px;
+  width: auto;
+}
+.post__header > h1 {
+  margin: 50px;
+  font-size: 50px;
+}
+.post__header > p {
+  margin: 50px;
+}
+.post__contentWrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  margin-left: 50%;
+  padding: 40px;
+  line-height: 27px;
+  color: #6d6d6d;
+  overflow: scroll;
+}
+.post__menuButton {
+  height: 14%;
+  text-align: right;
+}
+.post__content > img {
+  width: 100%;
+  /*height: auto;*/
+}
+@media (max-width: 600px) {
+  .post__header, .post__contentWrapper {
+    width: auto;
+    position: relative;
+    margin: 0;
+  }
+}
